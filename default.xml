@@ -2,7 +2,9 @@
 <manifest>
 
         <remote name="github" fetch="https://github.com/"/>
+        <remote name="gitlab" fetch="https://gitlab.com/"/>
 
         <project path="Conix-Core" remote="github" name="MaksymPrymierov/Conix-Core.git" revision="master"/>
+        <project path="build/build_env" remote="gitlab" name="connor41/Conix-Core_BuildEnv.git" revision="master"/>
 
 </manifest>
